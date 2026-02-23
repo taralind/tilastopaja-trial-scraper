@@ -1,6 +1,6 @@
 ## Scraping individual athlete trials from Tilastopaja 
 
-This script scrapes individual athlete trial data from the online athletics database Tilastopaja (https://www.tilastopaja.info). It:
+This script scrapes individual athlete trial data from multi-trial events (e.g., long jump, shot put) from the online athletics database Tilastopaja (https://www.tilastopaja.info). It:
 
 1. Grabs the top 100 athletes in the world for a specific event and sex (from Tilastopaja leaderboard page), for the specified leaderboard years
 2. Collects a unique list of top athletes across these years
