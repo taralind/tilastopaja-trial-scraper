@@ -37,14 +37,14 @@ The script requires the following arguments:
 - A valid Tilastopaja subscription and login are required. 
 
 ### Example usage
-`python main.py \
-  --event 330 \
-  --sex 1 \
-  --username your_username \
-  --password your_password \
-  --leaderboard-start-year 2022 \
-  --leaderboard-end-year 2025 \
-  --data-start-year 2020 \
+`python main.py
+  --event 330
+  --sex 1
+  --username your_username
+  --password your_password
+  --leaderboard-start-year 2022
+  --leaderboard-end-year 2025
+  --data-start-year 2020
   --data-end-year 2025`
 
 This would identify the unique athletes ranked in the top 100 for men's long jump from 2022-2025, and scrape their individual trial data from 2020-2025. 
