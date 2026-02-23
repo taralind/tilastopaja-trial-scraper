@@ -23,21 +23,21 @@ Additional cleaning may be required to filter out instances where athletes compe
 
 ### Command line arguments
 The script requires the following arguments:
---event
+`--event
 --sex
 --username
 --password
 --leaderboard-start-year
 --leaderboard-end-year
 --data-start-year
---data-end-year
+--data-end-year`
 
 - Event codes for multi-trial events are given in the file tila_event_codes.csv. 
 - Sex code (1 = men, 2 = women)
 - A valid Tilastopaja subscription and login are required. 
 
 ### Example usage
-python main.py \
+`python main.py \
   --event 330 \
   --sex 1 \
   --username your_username \
@@ -45,7 +45,7 @@ python main.py \
   --leaderboard-start-year 2022 \
   --leaderboard-end-year 2025 \
   --data-start-year 2020 \
-  --data-end-year 2025
+  --data-end-year 2025`
 
 This would identify the unique athletes ranked in the top 100 for men's long jump from 2022-2025, and scrape their individual trial data from 2020-2025. 
 
